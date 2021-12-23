@@ -2,6 +2,7 @@ CREATE USER 'pdm-files'@'localhost' IDENTIFIED BY '93eab1de880e03cc3f04f505298b3
 CREATE SCHEMA pdmfile;
 ALTER DATABASE pdmfile COLLATE = 'utf8_bin';
 GRANT ALL PRIVILEGES ON pdmfile.* TO 'pdm-files'@'localhost';
+use pdmfile;
 create table `fileservtracks` (
 `filename` VARCHAR(511) DEFAULT null,
 `action` VARCHAR(255) DEFAULT null,
