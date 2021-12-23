@@ -3,7 +3,7 @@
 -- ALTER DATABASE pdmfile COLLATE = 'utf8_bin';
 GRANT ALL PRIVILEGES ON pdmfile.* TO 'pdm-files'@'localhost';
 use pdmfile;
-create or replace table `fileservtracks` (
+create table `fileservtracks` (
 `filename` VARCHAR(511) DEFAULT null,
 `action` VARCHAR(255) DEFAULT null,
 `time` VARCHAR(20) DEFAULT null,
