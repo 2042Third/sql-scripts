@@ -6,7 +6,7 @@ use pdmfile;
 create table `fileservtracks` (
 `filename` VARCHAR(511) DEFAULT null,
 `action` VARCHAR(255) DEFAULT null,
-`time` VARCHAR(20) DEFAULT null,
-`size` VARCHAR(128) DEFAULT null,
+`time` VARCHAR(255) DEFAULT null,
+`size` VARCHAR(255) DEFAULT null,
 `status` VARCHAR(511) DEFAULT null
 );
