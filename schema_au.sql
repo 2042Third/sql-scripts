@@ -4,7 +4,7 @@
 -- GRANT ALL PRIVILEGES ON pdmauth.* TO 'pdm-auth'@'localhost';
 use pdmauth;
 create table `users1` (
-`id` int SERIAL PRIMARY KEY,
+`id` INTEGER UNSIGNED AUTO_INCREMENT PRIMARY KEY,
 `username` VARCHAR(255) DEFAULT null,
 `pw` VARCHAR(511) DEFAULT null,
 `last-login` VARCHAR(255) DEFAULT null,
